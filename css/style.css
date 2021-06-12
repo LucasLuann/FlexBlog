@@ -48,3 +48,45 @@ img{
 .superinfo a{
     color: white;
 }
+
+/*Menu*/
+
+.menu-bg{
+    background: #2c70ff;
+    
+}
+
+.menu-bg a{
+    color: white;
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu-logo a{
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a:hover{
+    color: #122ab2;
+}
+
+.menu a{
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
