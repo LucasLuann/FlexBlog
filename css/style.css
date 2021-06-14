@@ -109,4 +109,28 @@ img{
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info{
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.sobre-info h1{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.sobre-info p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.sobre-img{
+    flex: 1 1 160px;
+    margin: 0 10px;
 }
