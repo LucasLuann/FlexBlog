@@ -262,3 +262,44 @@ img{
         padding-right: 10px;
     }
 }
+
+/*Qualidade*/
+
+.qualidade{
+    max-width: 960px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.qualidade-item{
+    flex: 1 1 300px;
+    margin: 20px 10px;
+}
+
+.qualidade-item h2{
+    font-size: 2.25em;
+    color: #a4a4a4;
+    margin-bottom: 20px;
+}
+
+.qualidade-item h2::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: black;
+}
+
+.roxo h2::before{
+    background: #AE81FF;
+}
+
+.rosa h2::before{
+    background: #F9265E;
+}
+
+.azul h2::before{
+    background: rgb(102,217,235);
+}
